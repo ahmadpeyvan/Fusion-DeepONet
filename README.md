@@ -48,13 +48,16 @@ Place the data into the matching directories under `src/` following the instruct
 ## 🔷 1. Semi-Ellipse
 
 ### Required Data
-Copy the following into `src/Semi_ellipse/`:
+Copy the following into `src/Semi_ellipse/unstructured_grid` and  `src/Semi_ellipse/structured_grid`:
 
 - dataset_structured_grid/
 - dataset_unstructured_grid/
 
 ### Training
-    cd src/Semi_ellipse
+    cd src/Semi_ellipse/unstructured_grid
+    or
+    cd src/Semi_ellipse/structured_grid
+
     python fusion_deeponet.py
 
 ### Inference
@@ -81,7 +84,7 @@ Copy the following:
 
 ### Inference
     cd ../Inference
-    python infer.py
+    python inference.py
 
 ---
 
